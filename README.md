@@ -37,7 +37,6 @@ The encryptor initializes with a predefined public key `(n, e)`. It then encrypt
 - **Public Key**: `publicKey[2] = {901, 33};`
 - **Message**: `HELLO its a test`
 - **Functions**:
-  - `encryptMessage`: Encrypts the message using RSA.
   - `printEncryptedMessage`: Displays the encrypted message in hexadecimal format.
   - `sendEncryptedMessage`: Sends the encrypted message over the serial connection.
 
